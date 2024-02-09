@@ -274,10 +274,10 @@
 		// + minutes + "Minutes " + seconds + "Seconds ";
 
 		// Display the result in an element with id="demo"
-		document.getElementById("days").innerHTML = dager +" <small>days</small>";
-		document.getElementById("hours").innerHTML = timer + " <small>hours</small> ";
-		document.getElementById("minutes").innerHTML = minutter + " <small>minutes</small> ";
-		document.getElementById("seconds").innerHTML = sekunder + " <small>seconds</small> ";
+		document.getElementById("days").innerHTML = days +" <small>Dager</small>";
+		document.getElementById("hours").innerHTML = hours + " <small>Timer</small> ";
+		document.getElementById("minutes").innerHTML = minutes + " <small>Minutter</small> ";
+		document.getElementById("seconds").innerHTML = seconds + " <small>Sekunder</small> ";
 
 		// If the count down is finished, write some text 
 		if (distance < 0) {
